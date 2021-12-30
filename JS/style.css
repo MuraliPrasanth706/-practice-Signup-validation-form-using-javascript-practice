@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+}
+.username1 {
+  width: 250px;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+}
+.btnsubmit {
+  background-color: rgb(49, 0, 128);
+  width: 100px;
+  margin: 20px;
+  padding: 10px 8px;
+  border-radius: 40px;
+  color: white;
+}
+.loginpage1 {
+  border: 2px solid black;
+  display: inline-block;
+  padding: 40px;
+}
+#error,
+#passerror,
+#errorconfirmpassword,
+#errorfullnameerror {
+  color: red;
+}
