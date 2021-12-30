@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Error in login page</h1>
 
+    <form id="form" action="/" method="get">
+      <div class="loginpage1">
+        <div>
+          <!-- <label for="Username">Username</label> -->
+          <input
+            id="name"
+            name="name"
+            type="text"
+            class="username1"
+            placeholder="username"
+          />
+        </div>
+        <div id="error"></div>
+        <div>
+          <!-- <label for="Fullname">Fullname</label>  -->
+          <input
+            id="fullname"
+            name="fullname"
+            type="text"
+            class="username1"
+            placeholder="Fullname"
+          />
+        </div>
+        <div id="errorfullnameerror"></div>
+        <div>
+          <!-- <label for="psw">PassWord</label> -->
+          <input
+            id="password"
+            type="password"
+            class="username1"
+            name="password"
+            placeholder="passWord"
+          />
+        </div>
+        <div id="passerror"></div>
+        <div>
+          <!-- <label for="psw">Confirm
+          PassWord</label> -->
+          <input
+            id="confirmpassword"
+            type="password"
+            class="username1"
+            placeholder="confirmpassword"
+          />
+        </div>
+        <div id="errorconfirmpassword"></div>
+        <button type="submit" class="btnsubmit">Submit</button>
+      </div>
+    </form>
+    <script src="../JavaScript/home.js"></script>
+  </body>
+</html>
